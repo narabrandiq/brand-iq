@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Express diagnostic | Brand IQ</title>
+<meta name="description" content="16 questions to identify your priority mission">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/site.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="index.html" aria-label="Brand IQ">
+      <svg viewBox="0 0 280 72" xmlns="http://www.w3.org/2000/svg" role="img">
+        <text x="0" y="62" font-family="Inter, Plus Jakarta Sans, sans-serif" font-weight="800" font-size="58" letter-spacing="-1.5" fill="#1a1a1a">Brand</text>
+        <text x="190" y="32" font-family="Inter, Plus Jakarta Sans, sans-serif" font-weight="800" font-size="32" letter-spacing="-1.5" fill="#5B5FED">IQ</text>
+      </svg>
+    </a>
+    <nav class="nav-links"><a class="" href="missions.html">Missions</a><a class="" href="formations.html">Training</a><a class="" href="secteurs.html">Sectors</a><a class="" href="a-propos.html">About</a><a class="" href="contact.html">Contact</a></nav>
+    <div class="nav-right">
+      <div class="lang-switch">
+        <a class="" href="../diagnostic.html">FR</a>
+        <a class="active" href="diagnostic.html">EN</a>
+      </div>
+      <a class="btn btn-primary nav-cta" href="diagnostic.html">Free express diagnostic</a>
+      <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="page-hero"><div class="container"><h1>Brand IQ express diagnostic</h1><p>16 questions, 4 minutes. Identify your priority mission: Growth, Innovation, CSR or AI.</p></div></section>
+<div class="diag-progress"><div class="container"><div class="bar"><span id="progressFill"></span></div><p class="muted" id="progressText" style="text-align:center;margin-top:8px"></p></div></div>
+<div class="container">
+  <div class="intro-card" id="introScreen">
+    <h2>Which transformation does your brand need?</h2>
+    <p class="muted" style="margin:12px 0 24px">This diagnostic scores your situation across Brand IQ's four axes and identifies your strategic priority.</p>
+    <div class="grid-2" style="margin-bottom:24px">
+      <div class="card"><h3>IQ-Growth</h3><p>Restart brand momentum</p></div>
+      <div class="card"><h3>IQ-Innovation</h3><p>Structure your innovation pipeline</p></div>
+      <div class="card"><h3>IQ-CSR</h3><p>Turn CSR into an advantage</p></div>
+      <div class="card"><h3>IQ-AI</h3><p>Embed AI in your marketing</p></div>
+    </div>
+    <button class="btn btn-primary" id="startBtn">Start the diagnostic</button>
+  </div>
+  <div id="questionsContainer"></div>
+  <div id="resultContainer"></div>
+</div>
+<script src="../assets/js/diagnostic.js"></script>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <a class="logo" href="index.html" aria-label="Brand IQ">
+        <svg viewBox="0 0 280 72" xmlns="http://www.w3.org/2000/svg" role="img">
+          <text x="0" y="62" font-family="Inter, Plus Jakarta Sans, sans-serif" font-weight="800" font-size="58" letter-spacing="-1.5" fill="#ffffff">Brand</text>
+          <text x="190" y="32" font-family="Inter, Plus Jakarta Sans, sans-serif" font-weight="800" font-size="32" letter-spacing="-1.5" fill="#a5b4fc">IQ</text>
+        </svg>
+      </a>
+      <p>Consulting and training on growth, innovation and AI. 2–4 week sprint missions. Tailor-made programs.</p>
+      <p style="margin-top:16px">
+        <a href="mailto:gerald.saada@brand-iq.co">gerald.saada@brand-iq.co</a><br>
+        <a href="tel:+33603561455">+33 6 03 56 14 55</a><br>
+        France &amp; Europe
+      </p>
+    </div>
+    <div>
+      <h4>Missions</h4>
+      <ul>
+        <li><a href="missions.html#growth">IQ-Growth UNLOCK</a></li>
+        <li><a href="missions.html#innovation">IQ-Innovation CREATE</a></li>
+        <li><a href="missions.html#ai">IQ-AI AMPLIFY</a></li>
+        <li><a href="missions.html#rse">IQ-RSE SUSTAIN</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Training</h4>
+      <ul>
+        <li><a href="formations.html">Marketing Academy</a></li>
+        <li><a href="formations.html">B2C Fundamentals</a></li>
+        <li><a href="formations.html">AI &amp; Marketing</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Sectors</h4>
+      <ul>
+        <li><a href="secteurs.html">FMCG</a></li>
+        <li><a href="secteurs.html">Beauty</a></li>
+        <li><a href="secteurs.html">Health</a></li>
+        <li><a href="a-propos.html">Gérald Saada</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 Brand IQ — All rights reserved</span>
+    <span>
+      <a href="mentions-legales.html">Legal notice</a> ·
+      <a href="confidentialite.html">Privacy</a> ·
+      <a href="cgv.html">Terms</a>
+    </span>
+  </div>
+</footer>
+<script src="../assets/js/site.js"></script>
+</body>
+</html>
