@@ -77,7 +77,9 @@ def header(lang, page, title, description):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content="{description}">
-<link rel="icon" href="{pre}assets/img/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{pre}assets/img/favicon.png" type="image/png" sizes="32x32">
+<link rel="icon" href="{pre}assets/img/favicon.png" type="image/png" sizes="256x256">
+<link rel="apple-touch-icon" href="{pre}assets/img/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{pre}assets/css/site.css">
@@ -86,10 +88,7 @@ def header(lang, page, title, description):
 <header class="site-header">
   <div class="container nav">
     <a class="logo" href="{m['home']}" aria-label="Brand IQ">
-      <svg viewBox="0 0 280 72" xmlns="http://www.w3.org/2000/svg" role="img">
-        <text x="0" y="62" font-family="Inter, Plus Jakarta Sans, sans-serif" font-weight="800" font-size="58" letter-spacing="-1.5" fill="#1a1a1a">Brand</text>
-        <text x="190" y="32" font-family="Inter, Plus Jakarta Sans, sans-serif" font-weight="800" font-size="32" letter-spacing="-1.5" fill="#5B5FED">IQ</text>
-      </svg>
+      <img src="{pre}assets/img/logo.png" alt="Brand IQ" width="136" height="32">
     </a>
     <nav class="nav-links">{''.join(links)}</nav>
     <div class="nav-right">
